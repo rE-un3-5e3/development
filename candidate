@@ -1,0 +1,20 @@
+CSV を統合する機能を持つ関数を作成したい。PowerShell
+
+機能
+1) 同一のKeyがある場合には、項目を統合する。
+2) 新規に追加されるものを追記する。
+
+機能詳細
+1) Keys has to be Unique
+2) 
+
+Notes
+同一Field(項目)を一つに纏める。
+
+
+By Group Count
+1 = Uniq Line . or Added New
+2 = Marged Line
+
+片方にしか存在しないKeyならば、新規追加もしくは、既存：更新なし
+両方に存在するKeyなら、両方のLineをログに出力する。
